@@ -1,0 +1,220 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif ;
+
+}
+
+body{
+background-color: rgb(192, 177, 150);
+}
+
+
+header{
+position: fixed;
+width: 100%;
+justify-content: space-between;
+padding: 25px 100px;
+z-index: 100000;
+}
+
+header ul{ position: relative;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+header li{
+position: relative;
+list-style: none;
+}
+header ul li a{
+font-size: 17px;
+position: relative;
+margin: 0 15px;
+text-decoration: none;
+color: white;
+letter-spacing: 2px;
+
+
+}
+
+a{
+padding: 23px 23px;
+}
+
+
+.sticky {
+background-color: rgb(110, 90, 74);
+transition: 0.8s;
+opacity: 0.9;
+
+}
+
+.king:hover{
+
+background-color: rgb(87, 82, 82);
+transition: 0.7s;
+border: 15px hidden red;
+border-radius: 60px;
+}
+
+li :hover{
+color: rgb(226, 76, 76);
+transition: 0.7s;
+}
+
+.banner{
+background: url(img/nav.jpg);
+position: relative;
+width:100% ;
+height: 60vh;
+background-size: cover;
+
+}
+
+button{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 16px ;
+cursor: pointer;
+padding: 15px 30px;
+border: 2px solid rgb(233, 204, 204);
+border-radius: 50px;
+margin-left: 5px;
+}
+
+.menu{
+text-align: center;
+}
+
+.about{
+text-align: center;
+margin-top: 20px;
+}
+
+.about h2{
+color: rgb(226, 75, 75);
+}
+
+.about h1{
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+.container{
+display: flex;
+margin-top: 50px;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+
+#one{ font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+}
+
+#two{
+font-size: 18px;
+word-spacing: 2px;
+width: 400px;
+margin-left: 70px;
+color: rgb(68, 41, 41);
+}
+
+.img{ 
+    text-align: center;
+    margin-top: 70px;
+   }
+
+   
+   
+.img1{
+    border: 4px solid rgb(189, 185, 184);
+    border-radius: 5px;
+   }
+
+   .form{
+       margin-top: 50px;
+       margin-left: 70px;
+       display: flex;
+   }
+
+   form input{
+       margin-top: 25px;
+      padding: 15px;
+   }
+
+   form textarea{
+       margin-top: 25px;
+       width: 500px;
+       padding: 15px;
+   }
+
+   .time{
+       margin-top: -10px;
+       margin-left: 70px;
+       letter-spacing: 2px;
+   }
+
+   .contact{
+    margin-left: 70px;
+    margin-top: 50px;
+    }
+    
+    .contact h2{
+        font-size: 37px;
+    color: rgb(226, 75, 75);
+    }
+    
+    .contact h1{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    }
+
+    .form img{
+        margin-top: -210px;
+        margin-left: 120px;
+    }
+
+    #submit{
+        padding: 10px;
+        background-color: rgb(230, 100, 95);
+        border: hidden;
+        border-radius: 12px;
+        cursor: pointer;
+        color: white;
+        font-size: 18px;
+    }
+
+    .gallery{
+        text-align: center;
+    }
+
+    .gimg{
+        border: 6px solid rgb(167, 118, 90);
+        border-radius: 10px;
+    }
+
+    #footer{
+        width: 100%;
+        padding: 50px 50px;
+        background-color: rgb(75, 61, 50);  
+        color: white;
+        display: flex;
+        text-align: center;
+       
+    }
+    
+    .foot{
+        margin-left: 120px;
+        width: 90%;
+        display: flex;
+    }
+    
+    
+    .news{
+        margin-left: 300px;
+    }
+    
+    

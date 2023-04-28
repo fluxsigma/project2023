@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif ;
+  
+}
+
+body{
+    background-color: rgb(207, 197, 197);
+    
+}
+
+.back{
+    display: flex;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    padding: 25px 100px;
+    z-index: 100000;
+}
+
+.sticky {
+    background-color: rgb(110, 90, 74);  
+    transition: 0.8s; 
+    opacity: 0.9;
+    
+}
+
+
+
+header ul{ position: relative;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+header li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    font-size: 17px;
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    
+    
+}
+
+.banner{
+    background: url(photos/main.jpg);
+    position: relative;
+    width:100% ;
+    height: 70vh;
+    background-size: cover;
+    
+}
+
+
+
+
+a{
+    padding: 23px 23px;
+}
+
+.king:hover{
+    
+    background-color: rgb(87, 82, 82);
+    transition: 0.7s;
+    border: 15px hidden red;
+    border-radius: 60px;
+}
+
+.main {
+   
+    color: rgb(54, 54, 53);
+   margin: 50px 0px 0px 90px;
+
+}
+
+.main p {
+    font-size: 29px;
+    color: rgb(104, 79, 79);
+}                                                                                                                                                     
+
+.main h1{ 
+    font-size: 78px;
+    color: rgb(63, 28, 17);
+    letter-spacing: 5px;
+    margin-left: -11px;
+    
+    
+}
+
+.main span {
+    font-size: 18px;
+    display: block;
+    color: rgb(63, 63, 63);
+}    
+
+
+form{
+    margin: 20px 0px 0px 65px;
+    font-size: 18px;
+    color: rgb(5, 5, 5);
+    
+}
+
+input{
+  margin-left: 20px;
+    
+}
+
+
+.content {
+   
+   margin: px 0px 0px ;
+   display:flex;
+   background-color: rgb(207, 177, 149);
+  
+   
+
+}
+
+.img{ margin-top: 110px;
+    margin-left: 300px;
+}
+
+hr{ width: 90%;
+    margin-left: 80px; 
+    margin-top: 25px;
+}
+
+li :hover{
+    color: rgb(226, 76, 76);
+    transition: 0.7s;
+}
+
+#footer{
+    width: 100%;
+    padding: 50px 50px;
+    background-color: rgb(75, 61, 50);  
+    color: white;
+    display: flex;
+    text-align: center;
+   
+}
+
+.foot{
+    margin-left: 120px;
+    width: 90%;
+    display: flex;
+}
+
+
+.news{
+    margin-left: 200px;
+}
+
+
+
